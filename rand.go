@@ -14,7 +14,7 @@ func init() {
 func Rand(length int, validChrs ...string) string {
 
 	valid := "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
-	if len(validChrs) > 0 {
+	if len(validChrs) > 0 && validChrs[0] != "" {
 		valid = validChrs[0]
 	}
 	letterRunes := []rune(valid)
