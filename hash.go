@@ -5,7 +5,7 @@ import (
 	"encoding/hex"
 )
 
-// hash returns a salted sha256 hash of the str parameter
+// Hash returns a salted sha256 hash of the str parameter
 func Hash(str string, salt string) string {
 	hash := sha256.New()
 	hash.Write([]byte(str + salt))
