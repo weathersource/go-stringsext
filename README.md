@@ -6,4 +6,4 @@ pkg/stringsext
 [![Build Status](https://travis-ci.org/weathersource/go-stringsext.svg)](https://travis-ci.org/weathersource/go-stringsext)
 [![Codevov](https://codecov.io/gh/weathersource/go-stringsext/branch/master/graphs/badge.svg)](https://codecov.io/gh/weathersource/go-stringsext)
 
-Package stringsext provides functions that extend the golang strings library.
+Package stringsext provides functions that supplement the golang strings library.
