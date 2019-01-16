@@ -1,5 +1,5 @@
-pkg/stringsext
-==============
+go-stringsext
+=============
 
 [![GoDoc](https://godoc.org/github.com/weathersource/go-stringsext?status.svg)](https://godoc.org/github.com/weathersource/go-stringsext)
 [![Go Report Card](https://goreportcard.com/badge/github.com/weathersource/go-stringsext)](https://goreportcard.com/report/github.com/weathersource/go-stringsext)
